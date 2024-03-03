@@ -1,9 +1,8 @@
 **Array methods**:
 
-1. **`push()`** - Adds one or more elements to the end of an array and returns the new length.
+1. **`localstorage.getitem(KEY )`** - local storaeמשיכת מערך כמפתח מסויים מה
 
    ```javascript
-   const fruits = ["apple", "banana"];
-   fruits.push("orange");
-   console.log(fruits); // ['apple', 'banana', 'orange']
+   //"visitors" located in the local storage
+   const visitors = JSON.parse(localStorage.getItem("visitors"));
    ```
